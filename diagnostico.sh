@@ -1,4 +1,7 @@
 #!/bin/bash
+echo "---------------------------"
+echo "Escaneando puertos locales con Nmap..."
+nmap localhost
 echo "==========================="
 echo " COMPROBANDO RED INTERNA Y EXTERNA "
 echo "==========================="
