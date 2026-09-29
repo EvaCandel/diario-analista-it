@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi Primera Interceptación Web</title>
+    <title>Panel de Seguridad</title>
 </head>
 <body>
-    <h1>Reporte de Seguridad</h1>
-    <p>El servidor ha respondido con un código HTTP 200.</p>
+    <h1 id="estado-sistema">Sistema en Espera</h1>
+    <p>Haz clic en el botón para iniciar el escaneo de puertos local.</p>
+    
+    <!-- Este botón llama a la función JS cuando le haces clic -->
+    <button onclick="iniciarEscaneo()">Iniciar Escaneo</button>
+
+    <script>
+        // Aquí empieza la programación real en JavaScript
+        function iniciarEscaneo() {
+            // Buscamos el h1 por su ID y le cambiamos el texto
+            document.getElementById("estado-sistema").innerText = "Escaneo Completado. Ninguna amenaza detectada.";
+            // Lanzamos una alerta emergente en el navegador
+            alert("Atención: Escaneo finalizado.");
+        }
+    </script>
 </body>
 </html>
