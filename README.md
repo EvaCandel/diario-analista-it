@@ -19,3 +19,8 @@ Instalación, configuración y securización de un sistema de ticketing (osTicke
 4.  **Control de Acceso (RBAC):** Configuración de permisos de "Need to Know" aislando la visibilidad de los tickets según el departamento del técnico.# Repositorio de Aprendizaje IT
 
 Este es mi repositorio personal para documentar mi entrenamiento desde cero, mi configuración de WSL2 y mi camino hacia ciberseguridad (Blue Team).
+
+![Panel Principal del Helpdesk](captura3.png)
+![Muestra de tickets](captura2.png)
+![Departamentos creados](captura1.png)
+![Muestra de cliente (ticket) con deprtamento asignado](captura4.png)
