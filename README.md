@@ -12,5 +12,5 @@ Este repositorio es mi bitácora de trabajo donde documento los laboratorios, de
 *   🐍 **[Automatización y OSINT con Python](./python_scripts/)**
     *Scripts de geolocalización de IPs, manejo de APIs e inteligencia de amenazas.*
 
-*   🌐 **[Fundamentos Web y de Redes](./web_basica/)**
-    *Laboratorios de bases estructurales IT.*
+*   🌐 **[Laboratorio práctico de intercepción y disección de tráfico de red en crudo utilizando `tcpdump`.](./analisis_de_redes)**
+    *Análisis de Tráfico de Red (Packet Sniffing)*
